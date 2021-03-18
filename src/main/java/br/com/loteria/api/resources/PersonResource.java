@@ -56,13 +56,6 @@ public class PersonResource {
 			games.add(attr);
 			index++;
 		}
-//		for (int index = 0; index < person.getGames().size(); index++) {
-//			GameAttributes attr = new GameAttributes();
-//			attr.setOrder(index + 1);
-//			attr.setNumbers(person.getGames().get(index).getNumbers());
-//			attr.setCreatedAt(person.getGames().get(index).getCreatedAt());
-//			games.add(attr);
-//		}
 		
 		UserGamesDTO userGames = new UserGamesDTO(person.getEmail(), games);
 		
