@@ -1,12 +1,12 @@
 package br.com.loteria.api.dto;
 
-public class UserGameDTO {
+public class PersonGameDTO {
 	
 	private String email;
 	
 	private String numbers;
 
-	public UserGameDTO(String email, String numbers) {
+	public PersonGameDTO(String email, String numbers) {
 		this.email = email;
 		this.numbers = numbers;
 	}

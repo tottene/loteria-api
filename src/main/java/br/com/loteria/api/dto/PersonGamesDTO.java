@@ -2,13 +2,13 @@ package br.com.loteria.api.dto;
 
 import java.util.List;
 
-public class UserGamesDTO {
+public class PersonGamesDTO {
 	
 	private String email;
 	
 	private List<GameAttributes> games;
 	
-	public UserGamesDTO(String email, List<GameAttributes> games) {
+	public PersonGamesDTO(String email, List<GameAttributes> games) {
 		this.email = email;
 		this.games = games;
 	}
